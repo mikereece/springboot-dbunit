@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<table name="DBUNITDATASOURCE">
+        <column>ID</column>
+        <column>DRIVER</column>
+        <column>URL</column>
+        <column>USER</column>
+        <column>PASSWORD</column>
+        <column>SCHEMA</column>
+        <column>DATASET</column>
+        <row>
+            <value>1</value>
+            <value>org.h2.Driver</value>
+            <value>jdbc:h2:mem:test;</value>
+            <value>DBUNIT</value>
+            <value>DBUNIT</value>
+            <value>schema.sql</value>
+            <value>dataset.xml</value>
+        </row>
+    </table>
+</dataset>

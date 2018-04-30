@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<DBUNITDATASOURCE 
+		ID="1" 
+		DRIVER="org.h2.Driver" 
+		URL="jdbc:h2:mem:test;" 
+		USER="DBUNIT" 
+		PASSWORD="DBUNIT" 
+		SCHEMA="schema.sql" 
+		DATASET="dataset.xml" />
+</dataset>

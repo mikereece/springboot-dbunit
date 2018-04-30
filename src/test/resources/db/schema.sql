@@ -1,0 +1,1 @@
+create table if not exists DBUNITDATASOURCE (ID int identity primary key NOT NULL, DRIVER varchar NOT NULL, URL varchar NOT NULL, USER varchar NOT NULL, PASSWORD varchar NOT NULL, SCHEMA varchar NOT NULL, DATASET varchar NOT NULL);
